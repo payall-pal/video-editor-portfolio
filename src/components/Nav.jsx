@@ -17,7 +17,7 @@ const CSS = `
     justify-content: space-between;
     padding: 0 40px;
     height: 64px;
-    background: rgba(8,8,8,0.9);
+    background: #080808;
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
     border-bottom: 1px solid #161616;
