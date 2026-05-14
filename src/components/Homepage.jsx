@@ -174,7 +174,7 @@ export default function Home() {
         {/* Film grain */}
         <div
           className="hero-grain absolute  inset-0 z-3 pointer-events-none"
-          style={{ opacity: 0.28 }}
+          style={{ opacity: 0.05 }}
           aria-hidden="true"
         />
 
@@ -207,8 +207,8 @@ export default function Home() {
 
         {/* ── Main content ── */}
         <div
-          className="absolute top-0 left-0 bottom-0 z-4 flex flex-col gap-[3vw] justify-start"
-          style={{ maxWidth: 810, padding: "0 56px", paddingTop: "22vh", paddingBottom: 120 }}
+          className="absolute top-0 left-0 bottom-0 z-4 pr-[56px] pl-[20px] flex flex-col gap-[3vw] justify-start"
+          style={{ maxWidth: 810,  paddingTop: "22vh", paddingBottom: 120 }}
         >
 
           {/* Eyebrow */}
